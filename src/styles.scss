@@ -10,6 +10,20 @@ textarea {
 .grey {
   color: #4f4a47;
 }
+.mobileOnly {
+  display: none;
+}
+.mobileHidden {
+  display: inline-block;
+}
+@media all and (max-width: 640px) {
+  .mobileOnly {
+    display: inline-block;
+  }
+  .mobileHidden {
+    display: none !important;
+  }
+}
 .header-text {
   color: #4f4a47;
   font-size: 28px;
@@ -248,7 +262,9 @@ textarea {
   .ui-md-12 {
     width: 100%;
   }
-
+  .ui-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
   @media screen and (min-width: 64.063em) {
     .ui-lg-1,
     .ui-lg-2,
