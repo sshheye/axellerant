@@ -7,10 +7,22 @@ textarea {
   margin: initial;
   padding: initial;
 }
+.grey {
+  color: #4f4a47;
+}
+.header-text {
+  color: #4f4a47;
+  font-size: 28px;
+}
 .align-center {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+}
+.align-right {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
 }
 .btn-info {
   background-color: #c83106;
@@ -25,9 +37,7 @@ textarea {
   -moz-user-select: none;
   -ms-user-select: none;
   border: 1px solid transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
 }
 .btn-curved {
   width: 175px;

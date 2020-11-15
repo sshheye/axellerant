@@ -1,10 +1,18 @@
 .container {
   background-color: #f7f7f7;
+  padding: 50px 0px 0px 50px;
 }
 .testimonial-card {
+  color: #998d8a !important;
+  padding: 40px;
   width: 325px;
-  height: 210px;
+  min-height: 140px;
   background-repeat: no-repeat;
   border-radius: 25px;
   background-image: url("/assets/images/RoundedRectangle2.png");
+}
+.client-details-text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px 0px 0px 15px;
 }
