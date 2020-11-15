@@ -1,9 +1,9 @@
 .container {
-  background-image: url("/assets/images/Layer1.png");
-  height: 700px;
-  width: 100%;
-  background-repeat: no-repeat;
+  background: url("/assets/images/Layer1.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 698px;
   background-color: #000;
-  align-content: center;
-  justify-content: center;
 }
